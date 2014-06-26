@@ -238,90 +238,6 @@ table {
   border-spacing: 0;
 }
 
-/**
- * respond( $a [ ,$b ] )
- * Generate media quereis string
- * 
- * @include respond( 0, 799 ) {}    // <=800  (0~800)
- * @include respond( 800, 1199 ) {} // 800~1199
- * @include respond( 1200 ) {}      // >=1200
- */
-/**
- * Cozy Layout ( 1240+ )
- */
-/**
- * Compact Layout ( 0~1239 )
- */
-/**
- * Box-sizing
- */
-/**
- * clearfix
- */
-/**
- * font-family
- */
-/**
- * border-radius
- */
-/**
- * box-shadow
- */
-/**
- * background-gradient
- */
-/**
- * columns
- */
-/**
- * Opacity
- */
-/**
- * other minins by yougi
- */
-/** background image file **/
-/** benefits background image file **/
-/** hyperlinks anchor **/
-/** buttons red **/
-/** buttons red in header **/
-/** buttons blue **/
-/** green **/
-/** other **/
-/**  header **/
-/** 回饋標示 **/
-/**main nav**/
-/*query nav*/
-/*reputation*/
-/** touch **/
-/**
- * .button
- * .button.blue
- * .button.grey (or .button.gray)
- * .button.large    // shadow style
- * .button.medium   // shadow style
- * .button.small
- * .button.disabled
- */
-.button {
-  /** active/pressed **/
-  /**
-   * Grey
-   */
-  /**
-   * Blue
-   */
-  /**
-   * gray
-   */
-  /**Header Red **/
-  /** Large **/
-  /**
-   * Medium
-   */
-  /**
-   * Small
-   */
-}
 .button {
   font-size: 12.8px;
   cursor: pointer;
@@ -592,14 +508,13 @@ table {
 }
 
 html, body {
-  background-color: #777777;
+  background-color: white;
 }
 
 h1 {
   text-align: center;
-  color: #e7e7e7;
+  color: black;
   font-weight: bold;
-  text-shadow: 1px 1px #000;
 }
 
 .warning {
@@ -664,9 +579,7 @@ h1 {
   text-align: center;
   padding: 117px 0 10px;
 }
-.content .right {
-  background-color: #777777;
-}
+
 .content .right .block {
   margin: 0 0 10px;
 }

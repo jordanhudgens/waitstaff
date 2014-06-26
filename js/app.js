@@ -1,8 +1,8 @@
-var cacularApp = angular.module("cacularApp",[]);
-cacularApp.controller('inputController',function($scope,$rootScope){
+var calcApp = angular.module("calcApp",[]);
+calcApp.controller('inputController',function($scope,$rootScope){
 	$scope.submit = function() {
 		$scope.submitted = true;
-		//only broadcast event when form is valid
+
 		if($scope.inputForm.$valid){
 			$rootScope.$broadcast("calculate",$scope.input);   
 			resetForm();
